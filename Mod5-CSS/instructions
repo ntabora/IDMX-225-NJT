@@ -1,0 +1,48 @@
+Objectives
+Practice Writing CSS to add styles:
+Text styling 
+Background colors
+CSS sizing using the relative units called "rem"
+Simple CSS box model -- using padding and border
+Preparation
+Optional (but useful): Reading Chapters 11 & 12 will help with this assignment.
+
+Discussion
+In this assignment you will gain practice using CSS to style text and color. You'll be given the HTML and just a little CSS to get you started. Then it will be up to you to add more CSS to get as close as you can to the below picture. The width of your screen will vary, and so, DO NOT worry if this is the case.
+
+For This Assignment
+Follow the steps to complete this assignment. 
+
+ 
+
+Download the given css-paint-me.zip  file to your computer
+The .zip file is a compressed folder that you must extract before you can edit the css-paint-me.hml file
+The CSS is an embedded stylesheet in the file (at the top, between the open and close <style> tag) and that is where you will make additions
+Refer to the given "Web Developers Are So Funny" picture at the end of this assignment
+DO NOT TOUCH the HTML in the body of the file
+DO NOT TOUCH the given .title rule set inside the style tags
+Use the given .title rule set to give you hints about how to style the two paragraphs
+Add 2 rule sets to the embedded stylesheet above that will recreate the picture
+You MUST:
+As best you can, get the relative sizes from the picture, but do not worry about the width
+Only use rem values for sizing
+Only use CSS named colors:
+https://www.w3schools.com/colors/colors_names.asp (Links to an external site.) 
+ Only use generic font family names
+Submission Requirements
+ When you have completed the assignment, upload your completed css-paint-me.html file to this assignment.
+
+Starter Folder
+Here is the link to the compressed (zipped) folder to download
+
+ 
+
+css-paint-me-folder.zip Download css-paint-me-folder.zip
+
+ 
+
+REMEMBER: you must extract that zip file so that you get the css-paint-me folder, or you will not be able to properly edit the css-paint-me.html  file.
+
+If you are unsure of how to extract a zip file in a Windows 10 machine, use the below video tutorial . If you have a Mac, double-click on the file in Finder and it will unzip.
+
+NOTE: You may discover that you have created a folder in another folder with the same names. That is fine. All you need is to open the css-paint-me.html file in VS Code for editing. Then you'll need to find the css-paint-me.html file when it is time to upload that file to submit this assignment.
