@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions & Transforms</title>
+</head>
+<body>
+    <h1>Transforms:</h1>
+    <h2> Scale and Origin</h2>
+    <div id= "ex1" class="example"> Example 1</div>
+        <style>
+            .example{
+                width: 150px;
+                height: 150px;
+                border: 1px solid black;
+                background-color: aquamarine ; 
+            }
+        </style>
+    <br>
+     <div id="ex15" class="example"> Modified Example One</div>
+        <style> 
+            #ex15{
+                transform: scale(.5); /*anchor point center; scales the entire element*/
+                transform-origin: top left;  /*anchor point to where in the page the transform starts*/
+            }
+        </style>
+
+        <p>Transform = scales the entire element</p>
+        <p>Transform-origin = anchor point where in the page the transform starts</p>
+        <br>
+    <h2>Translation</h2>
+        <div id="ex2" class= "example"> Example 2</div>
+            <style>
+                #ex2{
+                    transform: translate(20px, 20px);
+                }
+            </style>
+        <br>
+        <p>Translate: moves the element around throughout the HTML page</p>
+    <br>
+    <h2>Rotation:</h2>
+    <br>
+        <div id="ex3" class="example">Example 3</div>
+        <style>
+            #ex3{
+                transform: rotate(.33turn) translate(-20px, -20px);
+            }
+        </style>
+    <h2>Scale Transitions:</h2>
+    <br>
+    <div id=ex5 class="example">Example 5</div>
+    <style>
+        #ex5{
+            transition-duration: .25s;
+        }
+        #ex5:hover{
+            transform: scale(.5) rotate(.33turn);
+            transition-duration: 1s;
+        }
+    </style>
+
+    <h2>Color Transitions:</h2>
+    <br>
+    <div id=ex6 class="example">Example 6</div>
+    <style>
+        #ex6{
+            transition-duration: .25s;
+        }
+        #ex6:hover{
+            transform: rotate(.33turn);
+            transition-duration: 1s;
+        }
+    </style>
+
+</body>
+</html>

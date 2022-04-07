@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar Transitions</title>
+</head>
+<body>
+    <nav id= "navigation" class="example"> Navigation 
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+    </nav>
+
+    
+    <style> /*https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+        #navigation ul li{
+            background-image: linear-gradient(to bottom, #0388fc, lightblue);
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            float: left;
+            
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            transform: scale(1.33);
+            transition-duration: 0.5s;
+        }
+    </style>
+</body>
+</html>
